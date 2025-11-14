@@ -1,0 +1,22 @@
+{
+  "name": "dns_adblock",
+  "version": "1.0.0",
+  "description": "a node app i wrote to block ads, so i can watch sopranos in HD without a shitload of ads",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && ts-node dist/index.js",
+    "test": "ts-node ./src/__tests__/*.test.ts"
+  },
+  "author": "s-riches",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^24.9.2",
+    "prettier": "^3.6.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "axios": "^1.13.1"
+  }
+}
